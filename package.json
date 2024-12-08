@@ -1,0 +1,22 @@
+{
+  "name": "electron_calc",
+  "version": "1.0.0",
+  "description": "a simple calculator written in electron.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "electron ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonheller/electron_calc.git"
+  },
+  "author": "Jason Heller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonheller/electron_calc/issues"
+  },
+  "homepage": "https://github.com/jasonheller/electron_calc#readme",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}

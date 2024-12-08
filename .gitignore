@@ -1,0 +1,7 @@
+.gitignore.swp
+.index.html.un~
+.index.js.un~
+index.html~
+index.js~
+package.json~
+node_modules
