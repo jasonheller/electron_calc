@@ -1,2 +1,2 @@
-# react_calc
-A simple calculator written in react
+# electron_calc
+A simple calculator written in electron
