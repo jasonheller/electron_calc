@@ -1,14 +1,13 @@
-
 const {app, BrowserWindow} = require('electron') 
-
+const path = require('node:path')
 // creating the window as seen in electronjs docs
 const createWindow = () => {
 	const win = new BrowserWindow({
 		width: 400,
-		height: 800
-	/*	webPreferences: {
+		height: 800,
+		webPreferences: {
 			preload: path.join(__dirname, 'preload.js')
-		} */
+		} 
 	})
 	// loading the calc
 	win.loadFile('index.html')
